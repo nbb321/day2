@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/swiper-4.1.6.min.css">
+    <script src="js/flexible.js"></script>
+
+</head>
+
+<body>
+    <div class="wrap">
+
+        <header class="header">
+            <span class="iconfont icon-xiangzuo"></span>
+            <p>无连接</p>
+            <i class="iconfont icon-gengduo-2"></i>
+        </header>
+        <main class="mainbody">
+            <div class="swiper-container">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">1</div>
+                    <div class="swiper-slide">2</div>
+                    <div class="swiper-slide">3</div>
+                    <div class="swiper-slide">4</div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <span><img src="images/1.PNG" alt=""></span>
+            <i><img src="images/2.PNG" alt=""></i>
+        </footer>
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        new Swiper(".swiper-container", {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+            }
+        })
+    </script>
+</body>
+
+</html>
